@@ -1,0 +1,74 @@
+/* CSS Document */
+div#page{
+   border: 1px solid #ccc;
+   width:  950px;
+   margin: 0 auto;
+   padding:0;
+   background: white;
+   text-align: center;
+}
+div#header{
+   padding: 0;
+   margin:  0;
+   color:white;
+   background-color:white;
+   height:35px;
+   }
+div#content{
+	position:relative;
+	margin: 0 auto 20px auto;
+	padding:0;
+	text-align: left;
+	}
+div#brand {
+	width: 950px;
+	margin:  0 auto;
+	padding: 1px;
+	text-align: left;
+    position: relative;
+    margin-bottom: 10px;
+	background-image:url(../image/background.jpg); height:90px;
+}
+div#main {
+    margin-top: 15px;
+    width: 950px;
+    }
+body {
+    text-align: left;
+    font-family: Arial, sans-serifarial, Verdana, Helvetica;
+    font-size: 15px;
+    line-height: 1.5;
+    color: black;
+    }
+td {
+    padding: 5px 0;
+    border-top: 1px dashed #ddd;
+}
+h4{
+	font-size:16px;
+	text-align:center;
+}
+.box {
+   border: 1px solid #ccc;
+   width:  748px;
+   margin: 0 auto;
+   padding:0;
+   background: white;
+   text-align: center;
+   margin-bottom: 10px;
+}
+a {
+	text-decoration: none;
+	color: #51AEF5;
+}
+ a:hover, a:active {
+    color: #BC2A4D;
+    text-decoration: underline;
+}
+.mouse-click-tr{ 
+ background-color:#FCFCFC;
+}
+.mouse-over-tr{
+ background-color:#F8F8F8;
+}
+

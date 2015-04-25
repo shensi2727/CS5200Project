@@ -1,0 +1,8 @@
+CREATE TABLE ep_schedule_task
+(
+pk_id [bigint] IDENTITY(1,1) NOT NULL,
+current_sendDate DATETIME NULL,
+next_sendDate DATETIME NULL,
+isSend BIT DEFAULT(0),
+email NVARCHAR(255) NULL
+)

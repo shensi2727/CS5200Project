@@ -1,0 +1,105 @@
+/* CSS Document */
+div#page{
+   border: 1px solid #ccc;
+   width:  900px;
+   margin: 0 auto;
+   padding:0;
+   background: white;
+   text-align: center;
+}
+div#header{
+   padding: 0;
+   margin:  0;
+   color:white;
+   background-color:white;
+   height:30px;
+   }
+div#content{
+	position:relative;
+	margin: 0 auto 20px auto;
+	padding:0;
+	text-align: left;
+	}
+div#brand {
+	width: 900px;
+	margin:  0 auto;
+	padding: 1px;
+	text-align: left;
+    position: relative;
+    margin-bottom: 10px;
+	background-image:url(../image/background.jpg); height:70px;
+}
+div#main {
+    margin-top: 15px;
+    width: 900px;
+    }
+body {
+    text-align: left;
+    font-family: Arial, sans-serifarial, Verdana, Helvetica;
+    font-size: 13px;
+    line-height: 1.5;
+    color: black;
+    }
+td {
+    padding: 1px 0;
+    border-top: 1px dashed #ddd;
+}
+h4{
+	font-size:14px;
+	text-align:center;
+	
+}
+.box {
+   border: 1px solid #ccc;
+   width:  748px;
+   margin: 0 auto;
+   padding:0;
+   background: white;
+   text-align: center;
+   margin-bottom: 10px;
+   font-size:13px;
+}
+a {
+	text-decoration: none;
+	color: #51AEF5;
+}
+ a:hover, a:active {
+    color: #BC2A4D;
+    text-decoration: underline;
+}
+.buttonface
+{
+	BACKGROUND: #94acd4;
+	border:1px #94acd4; 
+	solid #ffffff 2px groove; 
+	COLOR: #ffffff;
+	FONT-FAMILY: Arial,  ËÎÌו; 
+	FONT-SIZE: 9pt; 
+	FONT-STYLE: normal; 
+	FONT-VARIANT: normal; 
+	FONT-WEIGHT: normal; 
+	width: 60px; 
+	LINE-HEIGHT: normal
+}
+.inputControls
+{
+	color: black;
+    font-family: Tahoma, sans-serif,Arial,  ËÎÌו;
+	font-size: 12px;
+	width:80px;
+	height:13px;
+}
+.inputControl
+{
+	color: black;
+    font-family: Tahoma,  sans-serif,Arial,  ËÎÌו;
+	font-size: 12px;
+	width:138px;
+	height:13px;
+}
+.mouse-click-tr{ 
+ background-color:#FCFCFC;
+}
+.mouse-over-tr{
+ background-color:#F8F8F8;
+}

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<constant name="struts.multipart.saveDir" value="d:\temp\"></constant>
+	<constant name="struts.multipart.maxSize" value="30000000"></constant>
+	<package name="struts2" extends="struts-default">
+		<action name="Register" class="com.hnkj.hm.action.UserAction"
+			method="insertUser">
+			<result name="success">./Index.jsp</result>
+			<result name="input">/UserRegister.jsp</result>
+		</action>
+		<action name="AdminLogin" class="com.hnkj.hm.action.AdminAction"
+			method="adminLogin">
+			<result name="success">/Admin.jsp</result>
+			<result name="input">/AdminLogin.jsp</result>
+		</action>
+		<action name="AddrestaurantInfo" class="com.hnkj.hm.action.restaurantAction"
+			method="addrestaurantInfo">
+			<result name="success">/Admin.jsp</result>
+			<result name="input">/AddrestaurantInfo.jsp</result>
+		</action>
+		<action name="Viewrestaurant"
+			class="com.hnkj.hm.action.AdminrestaurantAction"
+			method="findByCondition">
+			<result name="success">/ViewrestaurantInfo.jsp</result>
+			<result name="input">/Adminrestaurant.jsp</result>
+		</action>
+		<action name="AddfoodInfo" class="com.hnkj.hm.action.foodAction"
+			method="addfoodInfo">
+			<result name="success">/Admin.jsp</result>
+			<result name="input">/AddfoodInfo.jsp</result>
+		</action>
+		<action name="Login" class="com.hnkj.hm.action.AdminUserAction"
+			method="login">
+			<result name="success">/Index.jsp</result>
+			<result name="input">/Login.jsp</result>
+		</action>
+		<action name="Reserve" class="com.hnkj.hm.action.ReserveAction"
+			method="reservefood">
+			<result name="success">/Admin.jsp</result>
+			<result name="input">/Reservefood.jsp</result>
+		</action>
+		<action name="ShowrestaurantInfo" class="com.hnkj.hm.action.AdminrestaurantAction"
+			method="showrestaurantInfo">
+			<result name="success">/ShowrestaurantInfo.jsp</result>
+			<result name="input">/Index.jsp</result>
+		</action>
+		<action name="food_info" class="com.hnkj.hm.action.AdminfoodAction"
+			method="selectAllfood">
+			<result name="select">/ShowfoodInfo.jsp</result>
+			<result name="delete">/Deletefood.jsp</result>
+			<result name="modify">/Modifyfood.jsp</result>
+		</action>
+		<action name="deletefood" class="com.hnkj.hm.action.AdminfoodAction"
+			method="deletefood">
+			<result name="delete">/Deletefood.jsp</result>
+		</action>
+		<action name="modifyfood" class="com.hnkj.hm.action.AdminfoodAction"
+			method="modifyfood">
+			<result name="modify">/Modifyfood.jsp</result>
+		</action>
+		<action name="findrestaurant" class="com.hnkj.hm.action.AdminrestaurantAction"
+			method="findrestaurantInfo">
+			<result name="select"></result>
+			<result name="delete">/DeleterestaurantInfo.jsp</result>
+			<result name="modify">/ModifyrestaurantInfo.jsp</result>
+		</action>
+		<action name="delrestaurant" class="com.hnkj.hm.action.AdminrestaurantAction"
+			method="delrestaurantInfo">
+			<result name="delete">/DeleterestaurantInfo.jsp</result>
+		</action>
+		<action name="modrestaurant" class="com.hnkj.hm.action.AdminrestaurantAction"
+			method="modrestaurantInfo">
+			<result name="modify">/ModifyrestaurantInfo.jsp</result>
+		</action>
+		<action name="selectInfo" class="com.hnkj.hm.action.AdminrestaurantAction"
+			method="selectInfo">
+			<result name="success">/Index.jsp</result>
+		</action>
+		<action name="reserve" class="com.hnkj.hm.action.AdminReserveAction"
+			method="selectReserve">
+			<result name="select">/SelectReserve.jsp</result>
+			<result name="delete">/DeleteReserve.jsp</result>
+		</action>
+		<action name="deleteReserve" class="com.hnkj.hm.action.AdminReserveAction"
+			method="deleteReserve">
+			<result name="delete">/DeleteReserve.jsp</result>
+		</action>
+	</package>
+</struts>

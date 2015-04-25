@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClassDiagram>
+    <Class name="com.hnkj.hm.action.AdminAction" x="477" y="248">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association destinationClassName="com.hnkj.hm.vo.AdminVO"
+            endpointName="adminVo" kind="Simple"/>
+        <Communication destinationClassName="com.hnkj.hm.vo.AdminVO"/>
+        <Communication destinationClassName="com.hnkj.hm.dao.IAdminDAO"/>
+    </Class>
+    <Class name="com.hnkj.hm.action.foodAction" x="83" y="312">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association destinationClassName="com.hnkj.hm.vo.foodVO"
+            endpointName="foodVo" kind="Simple"/>
+        <Communication destinationClassName="com.hnkj.hm.dao.IfoodDAO"/>
+    </Class>
+    <Class name="com.hnkj.hm.action.AdminfoodAction" x="731" y="135">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Communication destinationClassName="com.hnkj.hm.dao.IfoodDAO"/>
+        <Communication destinationClassName="com.hnkj.hm.vo.foodVO"/>
+    </Class>
+    <Class name="com.hnkj.hm.dao.impl.UserDAO" x="398" y="620">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="com.hnkj.hm.dao.IUserDAO"/>
+        <Communication destinationClassName="com.hnkj.hm.vo.UserVO"/>
+    </Class>
+    <Class name="com.hnkj.hm.dao.IEmployeeDAO" x="49" y="902">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="com.hnkj.hm.action.PersonController" x="342" y="79">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association destinationClassName="com.hnkj.hm.dao.PersonDAO"
+            endpointName="persondao" kind="Simple"/>
+        <Communication destinationClassName="com.hnkj.hm.dao.PersonDAO"/>
+        <Communication destinationClassName="com.hnkj.hm.vo.UserVO"/>
+    </Class>
+    <Class name="com.hnkj.hm.dao.impl.AdminDAO" x="352" y="773">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="com.hnkj.hm.dao.IAdminDAO"/>
+    </Class>
+    <Class name="com.hnkj.hm.dao.impl.EeployeeDAO" x="53" y="753">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="com.hnkj.hm.dao.IEmployeeDAO"/>
+    </Class>
+    <Class name="com.hnkj.hm.vo.ReserveVO" x="247" y="379">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="com.hnkj.hm.dao.IrestaurantDAO" x="899" y="892">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="com.hnkj.hm.dao.PersonDAO" x="94" y="16">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Communication destinationClassName="com.hnkj.hm.vo.UserVO"/>
+    </Class>
+    <Class name="com.hnkj.hm.dao.IReserveDAO" x="1012" y="595">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="com.hnkj.hm.action.AdminrestaurantAction" x="537" y="52">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Communication destinationClassName="com.hnkj.hm.dao.IrestaurantDAO"/>
+        <Communication destinationClassName="com.hnkj.hm.dao.impl.restaurantDAO"/>
+        <Communication destinationClassName="com.hnkj.hm.vo.restaurantVO"/>
+    </Class>
+    <Class name="com.hnkj.hm.dao.IUserDAO" x="54" y="621">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="com.hnkj.hm.dao.impl.ReserveDAO" x="709" y="615">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="com.hnkj.hm.dao.IReserveDAO"/>
+        <Communication destinationClassName="com.hnkj.hm.vo.ReserveVO"/>
+    </Class>
+    <Class name="com.hnkj.hm.dao.IfoodDAO" x="611" y="896">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="com.hnkj.hm.dao.impl.restaurantDAO" x="903" y="743">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="com.hnkj.hm.dao.IrestaurantDAO"/>
+        <Communication destinationClassName="com.hnkj.hm.vo.restaurantVO"/>
+    </Class>
+    <Class name="com.hnkj.hm.action.AdminUserAction" x="280" y="149">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Communication destinationClassName="com.hnkj.hm.dao.impl.UserDAO"/>
+    </Class>
+    <Class name="com.hnkj.hm.dao.impl.foodDAO" x="607" y="754">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="com.hnkj.hm.dao.IfoodDAO"/>
+        <Communication destinationClassName="com.hnkj.hm.vo.foodVO"/>
+    </Class>
+    <Class name="com.hnkj.hm.action.restaurantAction" x="286" y="243">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association destinationClassName="com.hnkj.hm.vo.restaurantVO"
+            endpointName="restaurantVo" kind="Simple"/>
+        <Communication destinationClassName="com.hnkj.hm.dao.IrestaurantDAO"/>
+        <Communication destinationClassName="com.hnkj.hm.vo.restaurantVO"/>
+    </Class>
+    <Class name="com.hnkj.hm.dao.IAdminDAO" x="355" y="905">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="com.hnkj.hm.vo.restaurantVO" x="372" y="321">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="com.hnkj.hm.action.AdminReserveAction" x="73" y="87">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Communication destinationClassName="com.hnkj.hm.dao.IReserveDAO"/>
+    </Class>
+    <Class name="com.hnkj.hm.action.ReserveAction" x="88" y="204">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association destinationClassName="com.hnkj.hm.vo.ReserveVO"
+            endpointName="reserveVo" kind="Simple"/>
+        <Communication destinationClassName="com.hnkj.hm.dao.IfoodDAO"/>
+        <Communication destinationClassName="com.hnkj.hm.dao.IrestaurantDAO"/>
+        <Communication destinationClassName="com.hnkj.hm.dao.IReserveDAO"/>
+        <Communication destinationClassName="com.hnkj.hm.vo.foodVO"/>
+        <Communication destinationClassName="com.hnkj.hm.vo.restaurantVO"/>
+        <Communication destinationClassName="com.hnkj.hm.vo.ReserveVO"/>
+    </Class>
+    <Class name="com.hnkj.hm.vo.UserVO" x="704" y="303">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="com.hnkj.hm.vo.AdminVO" x="556" y="378">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="com.hnkj.hm.vo.foodVO" x="82" y="403">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="com.hnkj.hm.action.UserAction" x="406" y="143">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association destinationClassName="com.hnkj.hm.vo.UserVO"
+            endpointName="userVo" kind="Simple"/>
+        <Communication destinationClassName="com.hnkj.hm.dao.IUserDAO"/>
+    </Class>
+</ClassDiagram>

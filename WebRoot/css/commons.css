@@ -1,0 +1,186 @@
+div#page {
+  width: 900px;
+  margin:  0 auto;
+  background: white;
+  text-align: center;
+    border: 1px solid #ccc;
+}
+div#main {
+	float: left;
+	width: 900px;
+	display: inline;
+	margin-top: 30px;
+	overflow: hidden;
+	height: 550px;
+
+}
+div#header {
+ padding: 0;
+ margin: 0;
+ color: white;
+ background-color: white;
+ height: 50px;
+}
+div#content {
+	position: relative;
+	margin: 0 auto 20px auto;
+	padding: 0;
+	text-align: left;
+	height: 600px;
+	width: 900px;
+}
+div#content1 {
+ float: right;
+    width: 530px;
+}
+.clearfix:after {
+ content: "."; 
+ display: block; 
+ height: 0; 
+clear: both; 
+visibility: 
+hidden;
+}
+.clearfix {
+display: inline-table;
+}
+* html .clearfix {
+height:1%;
+}
+*+html .clearfix {
+height:1%;
+}
+.clearfix {
+ display:block;
+}
+div.box1 {
+    border: 1px solid #a8bacd;
+    padding: 1px;
+    width: 950px;
+    position: relative;
+    margin-bottom: 10px;
+}
+div#advert_a4 {
+    width: 80%;
+    padding: 10px 5px;
+}	
+div#nav div.wrapper {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 13px;
+  padding-bottom: 6px;
+  background: #6293bb url(/images/shadow.png) repeat-x bottom left;
+}
+ td{
+ font-size:14px;
+ color:#030303;
+ }
+
+div.box2 {
+    border: 1px solid #a8bacd;
+    padding: 1px;
+    width: 80%;
+    position: relative;
+    margin-bottom: 10px;
+}
+H3 {
+  font-size: 16px;
+  line-height: 1.5em;
+  margin: 0 0 0.5em 0;
+  padding:0;
+  color: black;
+  background-color:#d7ffd7
+}
+div#footer {
+  color: EEB422;
+  background-color: white;  
+}
+div#copyright {
+	margin: 10px;
+	font-size: 14px;
+}
+div#site_nav ul {
+    width: auto; 
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+    list-style: none;
+}
+div#site_nav li {
+    display: inline;
+    list-style: none;    
+    margin: 0;
+    padding: 3px 10px 3px 10px;
+    line-height: 1em;
+    border-right: 1px solid #aaa;
+}
+div#site_nav li.last {
+    border-right: none;
+}
+
+.inputControl
+{
+	color: black;
+    font-family: Tahoma,  sans-serif,Arial,  ËÎÌו;
+	font-size: 12px;
+	width:138px;
+	height:13px;
+}
+.lable{
+    font-size:12px;
+
+}
+body {
+    text-align: left;
+    font-family: Arial, sans-serifarial, Verdana, Helvetica;
+    font-size: 14px;
+    line-height: 1.5;
+    color: black;
+    }
+td {
+    padding: 5px 0;
+    border-top: 1px dashed #ddd;
+}
+
+h4{
+	font-size:16px;
+	text-align:center;
+}
+.box {
+   border: 1px solid #ccc;
+   width:  748px;
+   margin: 0 auto;
+   padding:0;
+   background: white;
+   text-align: center;
+   margin-bottom: 10px;
+}
+a {
+	text-decoration: none;
+	color: #51AEF5;
+}
+a:hover, a:active {
+    color: #BC2A4D;
+    text-decoration: underline;
+}
+#tdtext{
+	font-size:14px;
+}
+
+.buttonface
+{
+	BACKGROUND: #94acd4;
+	border:1px #94acd4; 
+	solid #ffffff 2px groove; 
+	COLOR: #ffffff;
+	FONT-FAMILY: Arial,  ËÎÌו; 
+	FONT-SIZE: 9pt; 
+	FONT-STYLE: normal; 
+	FONT-VARIANT: normal; 
+	FONT-WEIGHT: normal; 
+	width: 60px; 
+	LINE-HEIGHT: normal
+}
